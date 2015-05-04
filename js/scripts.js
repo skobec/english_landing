@@ -8,10 +8,6 @@ $(document).ready(function() {
         $(".dropdown dt a span").html(text);
         $(".dropdown dd ul").hide();
     });
-
-});
-
-$(document).ready(function(){
     $('a[href*=#]').bind("click", function(e){
         var anchor = $(this);
         $('html, body').stop().animate({
